@@ -201,6 +201,7 @@ want to treat them as gestures of your own, not as scrolls.
 type alias Options =
     { stopPropagation : Bool
     , preventDefault : Bool
+    , capturePointer : Bool
     }
 
 
@@ -209,6 +210,7 @@ type alias Options =
     defaultOptions =
         { stopPropagation = False
         , preventDefault = False
+        , capturePointer = False
         }
 -}
 defaultOptions : Options

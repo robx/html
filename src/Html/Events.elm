@@ -202,6 +202,7 @@ type alias Options =
     { stopPropagation : Bool
     , preventDefault : Bool
     , capturePointer : Bool
+    , releasePointer : Bool
     }
 
 
@@ -211,6 +212,7 @@ type alias Options =
         { stopPropagation = False
         , preventDefault = False
         , capturePointer = False
+        , releasePointer = False
         }
 -}
 defaultOptions : Options
